@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude | PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b48037b402.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>UI/UX designer</p>
+            <h1>Hi, I'm <span>Claude</span><br> your website developer</h1>
+          </div>
+        </div>
+    </div>
+    <!----------------about------------------>
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/clawdy1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="tate">Im Claude Viper G. Gudmalin <br>26 years old
+                    im a  php,html,css,java developer since 2017
+                    and been<br> into gaming developer c# back in 2019,<br>
+                    but now focussing in wordpress developer.
+                    <br>
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Webdesigns</li>
+                        <li><span>Web Development</span><br>Website app Development</li>
+                        <li><span>Wordpress</span><br>Wordpress Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Website Developer</li>
+                        <li><span>2021 - 2022</span><br>Wordpress</li>
+                        <li><span>2019 - 2020</span><br>FiveM</li>
+                        <li><span>2016 - 2018</span><br>Php and html and cssr</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>Bachelor of Science in Computer Science</li>
+                        <li><span>2018</span><br>Vocational Degree of Information Technology</li>
+                        <li><span>2015</span><br>Bachelor of Science in Marine Transportation</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!------------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>creating website designs; producing sample sites; meeting 
+                    with clients to discuss requirements and/or 
+                    project progress; demonstrating and receiving
+                     feedback ..</p>
+                      <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>experiences (UX) and user interfaces (UI) for web and mobile apps.
+                    My focus is developing new or improving existing products and 
+                    services, being able to work from research to production.</p>
+                      <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-wordpress"></i>
+                <h2>Wordpress Developer</h2>
+                <p>Wordpress developer for  2 years now  </p>
+                      <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work1.png">  
+                <div class="layer">
+                    <H3>Social Media App</H3>
+                    <p>The App connects you  to the Talented people
+                        around the world.Download it from PlayStore
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work2.png">
+                <div class="layer">
+                    <H3>Web Designs</H3>
+                    <p>creating website designs; producing sample sites;  .
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.png">
+                <div class="layer">
+                    <H3>Wordpress</H3>
+                    <p> WordPress Developer's duties and 
+                        responsibilities. It is customizable and ready to
+                         post to job boards. Use it to save time, attract
+                          qualified candidates and hire best employees.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <H3>Music Application</H3>
+                    <p>mobile, or desktop application that enables users to purchase and stream music. 
+                        Music apps typically offer access to popular music streaming services (e.g., Spotify), 
+                        as well as the ability to create custom playlists of songs owned by the user.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> claudeviper919@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 09667430153</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/chennierose.lamban.7/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/queenchennierose/"><i class="fab fa-whatsapp"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="Images/resume .pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" > </textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Claude. Made <i class="fa-solid fa-heart"></i> by Claude viper</p>
+    </div>
+</div>
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu")
+    function openmenu (){
+        sidemeu.style.right = "0";
+    }
+    function closemenu (){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzlG_2CFdrrX5pziPlDS3x5sBH2-iqKbo4QFdPCS4Umrk5u9osYKGpHUfXogYDPOFC7/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
